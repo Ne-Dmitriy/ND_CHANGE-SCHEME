@@ -1,0 +1,19 @@
+html.light {
+	--color-bg: #FFFFFF;
+	--color-text: #000000;
+} 
+
+html.dark {
+	--color-bg: #000000;
+	--color-text: #FFFFFF;
+} 
+
+body {
+	background-color: var(--color-bg); 
+	color: var(--color-text); 
+}
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto; 
+} 
